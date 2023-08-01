@@ -1,0 +1,104 @@
+body{
+    margin: 0 auto;
+    background: linear-gradient(335deg, rgba(111,219,171,1) 0%, rgba(110,170,219,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    font-family: 'TT Rounds Neue Trial Variable', sans-serif;
+    height: 939px;
+}
+
+.conteudo {
+    text-align: center;
+    box-shadow: 1px 2px 5px 1px #738292b4;
+    background-color: #ffffff49;
+    height: 30em;
+    width: 45em;
+    margin-top: 10em;
+    border-radius: 7% 7% 35% 7%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.seletor{
+    height: 20%;
+    border-bottom: 3px double #ffffff;
+    margin-right: 5em;
+    align-items: center;
+    padding-inline: 1em;
+    display: inline-flex;
+    justify-content: space-around;
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+    height: 5%;
+    margin-right: 15em;
+    margin-top: 1em;
+}
+.input{
+    height:2em;
+    width: 9em;
+    border-radius: 10%/35%;
+    border: 1px solid #cce3ff;
+    text-align: center;
+    font-family: 'TT Rounds Neue Trial Variable', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+input::placeholder{
+    font-family: 'TT Rounds Neue Trial Variable', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #000;
+}
+input:focus{
+    background-color: #fff;
+}
+
+button{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff;
+    position: relative;
+    top: 3.4em;
+    left: 2.1em;
+    box-shadow: 0px 0px 2px 1px #738091;
+}
+button:hover{
+    box-shadow: 0px 0px 2px 0px #738091;
+}
+button:active{
+    box-shadow: inset 0px 0px 2px 1px #738091;
+    background-color: #c6c7c9;
+}
+.resultado{
+    padding-top: .1em;
+    height: 75%;
+    font-size: 5em;
+    font-family: 'TT Rounds Neue Trial Variable', sans-serif;
+}
+
+.output{
+    height: 33%;
+    display: flex;
+    margin-left: 2em;
+}
+p{
+    margin: auto;
+}
+.label{
+    margin-left: 0;
+}
+
+.anos,
+.meses,
+.dias{
+    height: 100%;
+    padding-inline: 15px;
+    color: #fff;
+}
