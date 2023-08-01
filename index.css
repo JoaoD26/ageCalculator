@@ -1,11 +1,18 @@
+html{
+    height: 100%;
+}
 body{
     margin: 0 auto;
     background: linear-gradient(335deg, rgba(111,219,171,1) 0%, rgba(110,170,219,1) 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
     display: flex;
     flex-direction: row;
     justify-content:center;
     font-family: 'TT Rounds Neue Trial Variable', sans-serif;
-    height: 939px;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
 }
 
 .conteudo {
@@ -14,7 +21,6 @@ body{
     background-color: #ffffff49;
     height: 30em;
     width: 45em;
-    margin-top: 10em;
     border-radius: 7% 7% 35% 7%;
     padding: 1em;
     display: flex;
